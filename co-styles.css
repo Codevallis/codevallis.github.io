@@ -8,7 +8,7 @@
 /*OFF-WHITE > "ANTI-FLASH WHITE" > #F0F2F4 > 'LIGHT, TITLES, TEXT'*/
 /*PURPLE > "DEEP KOAMARU" > #383961 > 'DARK, STROKE, OUTLINE, VISITED LINKS'*/
 
-*{border: 1px red dotted;}
+/**{border: 1px red dotted;}*/
 body {
 	
 	background-color: #1A3313;
@@ -52,18 +52,37 @@ a:visited{
 	justify-content: flex-end;
 
 }
+/*
 .nav-container{
 	display: flex;
 	flex-direction: row-reverse;
 	justify-content: flex-end;
 	flex-wrap: nowrap;
+	flex-grow: 1;
+	width: 100%;
+	align-content: flex-end;
 
 
+}
+*/
+.nav-container {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: flex-end;
+	align-content: space-between;
+
+	
 }
 .nav-container ul li {
 	list-style: none;
+	display: inline;
+		background-color: #DBDFAC;
 }
-.nav container nav {display: inline;}
+
+.nav-container li a{
+	padding: 5px;
+}
+
 
 
 
