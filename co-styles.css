@@ -1,4 +1,69 @@
 /* CSS Document */
 
-/* BASE STYLES */
+/* BASE STYLES (MOBILE) */
+
+/*GREEN > "Phthalo Green" > #1A3313 > 'DARK, BACKGROUND OR TEXT'*/
+/*RED > "Crimson" > #DB162F > 'BOLD, LINKS/NAV OR TITLES'*/
+/*LIGHT GREEN/YELLOW > "PALE GOLDENROD" > #DBDFAC > 'LIGHT, SECONDARY BACKGROUNDS OR TITLES'*/
+/*OFF-WHITE > "ANTI-FLASH WHITE" > #F0F2F4 > 'LIGHT, TITLES, TEXT'*/
+/*PURPLE > "DEEP KOAMARU" > #383961 > 'DARK, STROKE, OUTLINE, VISITED LINKS'*/
+
+*{border: 1px red dotted;}
+body {
+	
+	background-color: #1A3313;
+	color: #F0F2F4;
+	font-size: 16px;
+
+}
+
+
+h1, h2, h3 {
+	color: #DBDFAC;
+	padding: 5px;
+	
+}
+
+h1{
+	
+	font-size: 2em;
+	font-weight: bold;
+}
+
+h2{font-size: 1.5em;}
+h3{font-size: 1.25em;}
+
+a:link{
+	color: #DB162F;
+	text-decoration: underline;
+	font-weight: bold;
+	
+}
+
+a:visited{
+	color: #5F758E;
+	text-decoration: none;
+	font-weight: lighter;
+}
+
+.container{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+
+}
+.nav-container{
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: flex-end;
+	flex-wrap: nowrap;
+
+
+}
+.nav-container ul li {
+	list-style: none;
+}
+.nav container nav {display: inline;}
+
+
 
