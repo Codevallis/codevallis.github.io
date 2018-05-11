@@ -3,18 +3,28 @@
 /* BASE STYLES (MOBILE) */
 
 /*GREEN > "Phthalo Green" > #1A3313 > 'DARK, BACKGROUND OR TEXT'*/
+/*DARK GREEN > "SMOKY BLACK" > #080E06 > 'FOOTER'*/
 /*RED > "Crimson" > #DB162F > 'BOLD, LINKS/NAV OR TITLES'*/
 /*LIGHT GREEN/YELLOW > "PALE GOLDENROD" > #DBDFAC > 'LIGHT, SECONDARY BACKGROUNDS OR TITLES'*/
 /*OFF-WHITE > "ANTI-FLASH WHITE" > #F0F2F4 > 'LIGHT, TITLES, TEXT'*/
 /*PURPLE > "DEEP KOAMARU" > #383961 > 'DARK, STROKE, OUTLINE, VISITED LINKS'*/
+/*GRAY > "SILVER" > #C0C7BE > 'FOOTER TEXT'*/
 
-/**{border: 1px red dotted;}*/
+/* TESTING STYLES */
+/**{border: 1px red dashed;}*/
+
+
 body {
 	
 	background-color: #1A3313;
 	color: #F0F2F4;
 	font-size: 16px;
+	font-kerning: normal;
+	display: grid;
+	min-height: 99vh;
 
+
+	
 }
 
 
@@ -33,6 +43,19 @@ h1{
 h2{font-size: 1.5em;}
 h3{font-size: 1.25em;}
 
+.main-header{
+	text-align: center; 
+	margin: 0;
+}
+
+.main-footer{
+	background-color: #080E06;
+/*	position: fixed;*/
+	color: #C0C7BE;
+	display: flex;
+	height: 35px;
+}
+
 a:link{
 	color: #DB162F;
 	text-decoration: underline;
@@ -41,7 +64,7 @@ a:link{
 }
 
 a:visited{
-	color: #5F758E;
+	color: #383961;
 	text-decoration: none;
 	font-weight: lighter;
 }
@@ -52,37 +75,56 @@ a:visited{
 	justify-content: flex-end;
 
 }
-/*
-.nav-container{
-	display: flex;
-	flex-direction: row-reverse;
-	justify-content: flex-end;
-	flex-wrap: nowrap;
-	flex-grow: 1;
-	width: 100%;
-	align-content: flex-end;
 
 
-}
-*/
+
 .nav-container {
 	display: flex;
 	flex-flow: row nowrap;
 	justify-content: flex-end;
 	align-content: space-between;
-
+	z-index: 999;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	width: auto;
+	min-height: 1vh;
 	
 }
 .nav-container ul li {
 	list-style: none;
 	display: inline;
-		background-color: #DBDFAC;
+	flex-grow: 1;
+
 }
 
 .nav-container li a{
-	padding: 5px;
+	padding: 10px;
+	text-decoration: none;
+	font-size: 1.15em;
+	color: #DB162F;
+	font-weight: 900;
 }
 
+/*
+.nav-container li a:visited{
+	text-decoration: none;
+
+}
+*/
+
+/*
+#bolder-damnit{
+	font-weight: 900; 
+	text-shadow: 0px 0px 10px rgba(240,242,244,.9) !important;
+
+}
+*/
+
+.sub-header{width: 100%;margin:0;padding:0;height:25px;}
+.yellow-box{background-color:#DBDFAC; }
 
 
+/*MEDIA QUERIES*/
 
