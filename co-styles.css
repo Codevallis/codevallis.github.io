@@ -365,13 +365,11 @@ body {
 	display: grid;
 /*	min-height: 99vh;*/
 
-
-	
 }
 
 
 h1, h2, h3 {
-	color: #DBDFAC;
+	color: #DB162F;
 	padding: 5px;
 	
 }
@@ -393,7 +391,7 @@ p{padding: 10px;}
 }
 
 .main-footer{
-	background-color: #080E06;
+	background-color: #1A3313;
 	color: #C0C7BE;
 	display: flex;
 	bottom: 53px;
