@@ -358,12 +358,12 @@ template {
 
 body {
 	
-	background-color: #1A3313;
-	color: #F0F2F4;
+	color: #1A3313;
+	background-color:  color: #F0F2F4;
 	font-size: 16px;
 	font-kerning: normal;
 	display: grid;
-	min-height: 99vh;
+/*	min-height: 99vh;*/
 
 
 	
@@ -399,7 +399,7 @@ p{padding: 10px;}
 	bottom: 53px;
 	position: sticky;
 	width:auto;
-	height: auto;
+	height: 125px;
 	
 }
 
