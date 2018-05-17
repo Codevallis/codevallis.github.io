@@ -121,31 +121,32 @@ a:visited {
 	display: flex;
 	flex-flow: row nowrap;
 	justify-content: flex-end;
-	align-content: center;
-	align-items: center;
+	align-content: stretch;
+	align-items: baseline;
 	z-index: 999;
 	position: fixed;
 	bottom: 0;
 	right: 0;
 	left: 0;
-	padding: 10px 7.5px;
+
 }
 .nav-container ul li {
 	list-style: none;
 	display: inline;
 	flex-grow: 1;
-	padding-left: 0px;
+
 }
 .nav-container li a {
-	padding: 10px;
 	text-decoration: none;
 	font-size: 1.15em;
 	color: #DB162F;
 	font-weight: 900;
+	padding-left: 10px;
 }
 #primary-menu-link {
 	/*	color: #080E06;*/
 	color: #C0C7BE;
+	padding-left: 10px;
 }
 .sub-header {
 	width: 100%;
