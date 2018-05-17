@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<link href="https://fonts.googleapis.com/css?family=Overpass:300,400,400i,700,900,900i" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css?family=Overpass:100i,300,400,400i,700,900,900i" rel="stylesheet">
 <link rel="stylesheet" href="normalize.css">
 <link rel="stylesheet" href="co-styles.css">
 <title>Compendium.Online - Index</title>
@@ -12,7 +12,6 @@
 <body>
 <h1 class="main-header">Welcome to the Web.</h1>
 <div class="sub-header color-box"></div>
-
 <div class="">
   <main>
     <article>
@@ -30,19 +29,27 @@
       </section>
     </article>
   </main>
-
 </div>
-	  <footer class="main-footer"> THIS IS THE FOOTER </footer>
-  <div class="nav-container color-box">
-    <nav>
-      <ul>
-        <li><a href="articles.html" target="_self">Articles</a></li>
-        <li><a href="projects.html" target="_self">Projects</a></li>
-        <li><a href="contact.html" target="_self">Contact</a></li>
-		          <li><a href="index.html" target="_self" id="primary-menu-link">Menu</a></li>
-<!--        <li><a href="#" target="_self" id="primary-menu-link">Menu</a></li>-->
-      </ul>
-    </nav>
-  </div>
+<footer class="main-footer">
+  <form autocomplete="on" action="index.html" method="get" target="_self" class="email_signup_form" id="id_email_signup">
+    <label>
+      <input type="email" inputmode="email" id="signup_email" name="user_email" placeholder="Enter Email" required>
+    </label>
+    <button form="id_email_signup" name="sign_up_button" type="submit" id="btn_signup_submit">Sign Up!</button>
+	  <br/>
+	  <span class="email_signup_tag">Want to know as soon as the next update goes live? Sign up by entering your email above.</span>
+  </form>
+</footer>
+<div class="nav-container color-box">
+  <nav>
+    <ul>
+      <li><a href="articles.html" target="_self">Articles</a></li>
+      <li><a href="projects.html" target="_self">Projects</a></li>
+      <li><a href="contact.html" target="_self">Contact</a></li>
+      <li><a href="index.html" target="_self" id="primary-menu-link">Menu</a></li>
+      <!--        <li><a href="#" target="_self" id="primary-menu-link">Menu</a></li>-->
+    </ul>
+  </nav>
+</div>
 </body>
 </html>

@@ -40,13 +40,15 @@ h1, h2, h3 {
 }
 h1 {
 	font-size: 2em;
-	font-weight: bold;
+	font-weight: 900;
 }
 h2 {
 	font-size: 1.5em;
+	font-weight: 700;
 }
 h3 {
 	font-size: 1.25em;
+	font-weight: 400;
 }
 p {
 	padding: 1.5rem;
@@ -65,9 +67,9 @@ form {
 	margin: 0;
 }
 .main-footer {
-	display: flex;
-	justify-content: center;
-	align-content: center;
+	display: inline-flex;
+	justify-content: space-around;
+	align-content: flex-end;
 	position: absolute;
 	right: 0;
 	left: 0;
@@ -96,6 +98,23 @@ a:visited {
 	line-height: 1.5em;
 	font-weight: bold;
 	font-size: 1.5em;
+
+}
+
+#btn_signup_submit {
+	background-color: #1A3313;
+	color: #F0F2F4;
+	border: none;
+/*
+	border: 1px solid #DB162F;
+	border-radius: 6px;
+*/
+	box-shadow: 0px 7px 15px rgba(0,0,0,.6);
+	line-height: 1.15em;
+	font-weight: bold;
+	padding: 3.5px 3.5px;
+/*	height:35px;*/
+
 }
 .container {
 	display: flex;
@@ -140,7 +159,7 @@ a:visited {
 }
 .color-box {
 	/*	background-color: #DBDFAC;*/
-	background-color: #1A3313;
+	background-color: #080E06;
 }
 .contact-container {
 	display: flex;
@@ -159,6 +178,38 @@ a:visited {
 	max-width: 225px;
 	padding: 5px;/*	margin: 0;*/
 }
+
+.email_signup_form {
+	display: flex;
+	justify-content: flex-end;
+	align-content: center;
+	flex-direction: row;
+	padding: 5px 10px;
+	margin-top: -5px;
+	align-items: stretch;
+	border-radius: 3px;
+	background: none;
+	flex-wrap: wrap;
+	
+}
+
+.email_signup_form input[type="email"]{
+	background-color: #F0F2F4;
+	border-top: none;
+	box-shadow: 0px 7px 15px rgba(0,0,0,.6);
+	
+}
+.email_signup_tag{
+	font-style: italic;
+	font-weight: 100;
+	font-size: .85em;
+	padding: 6.5px;
+	
+
+}
+
+
+
 .strong {
 	font-weight: bold;
 }
@@ -176,16 +227,15 @@ form>span {
 input[type="text"], input[type="password"], input[type="date"], input[type="datetime"], input[type="email"], input[type="number"], input[type="search"], input[type="tel"], input[type="time"], input[type="url"], textarea, select {
 	background: rgba(255,255,255,0.1);
 	border: none;
-	font-size: 16px;
 	height: auto;
 	margin: 0;
 	outline: 0;
 	padding: 15px;
 	width: 100%;
-	background-color: #e8eeef;
+	background-color: #FCFDFD;
 	color: #8a97a0;
 	box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
-	margin-bottom: 18px;
+/*	margin-bottom: 18px;*/
 }
 
 
