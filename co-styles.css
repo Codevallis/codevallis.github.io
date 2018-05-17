@@ -26,6 +26,7 @@ body {
 	color: #1A3313;
 	background-color: #F0F2F4;
 	font-size: 16px;
+	font-weight: 400;
 	font-kerning: normal;
 	min-height: 100%;
 	position: relative;
@@ -48,10 +49,9 @@ h2 {
 }
 h3 {
 	font-size: 1.25em;
-	font-weight: 400;
 }
 p {
-	padding: 1.5rem;
+	padding: 1.5em;
 	margin-top: 0px;
 	padding-top: 10px;
 }
@@ -121,13 +121,14 @@ a:visited {
 	display: flex;
 	flex-flow: row nowrap;
 	justify-content: flex-end;
-	align-content: space-between;
+	align-content: center;
+	align-items: center;
 	z-index: 999;
 	position: fixed;
 	bottom: 0;
 	right: 0;
 	left: 0;
-	padding: 10px;
+	padding: 10px 7.5px;
 }
 .nav-container ul li {
 	list-style: none;
@@ -160,7 +161,7 @@ a:visited {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	margin: 1rem;
+	margin: 1em;
 	min-height: 100%;
 	position: relative;
 	padding-bottom: 85px;/*	height: 100%;*/
