@@ -33,6 +33,7 @@ body {
 	margin-bottom: 108px;
 	height: 100%;
 	font-family: 'Overpass', sans-serif;
+	width:100%;
 }
 
 h1, h2, h3 {
@@ -60,6 +61,11 @@ p {
 form {
 
 }
+
+.base_container{
+	width: 100%;
+	min-width: 320px;
+}
 .main-header {
 	text-align: center;
 	margin: 0;
@@ -73,7 +79,7 @@ form {
 	left: 0;
 	background-color: #1A3313;
 	color: #C0C7BE;
-	width: 100%;
+	min-width: inherit;
 	padding-bottom: 140px;
 }
 a:link {
@@ -85,7 +91,8 @@ a:link {
 a:visited {
 	color: #383961;
 	text-decoration-style: solid;
-	font-weight: lighter;
+	font-weight:100;
+	font-style: italic;
 }
 #btn_submit {
 	background-color: #383961;
@@ -128,6 +135,7 @@ a:visited {
 	left: 0;
 	width: 100%;
 	flex-direction: row-reverse;
+	padding: 10px 0;
 }
 
 .nav-container ul li {
@@ -191,7 +199,6 @@ a:visited {
 	background-color: #F0F2F4;
 	margin-right: 30px;
 	padding: 10px;
-	z-index: 0;
 	
 }
 .email_signup_tag{
@@ -201,7 +208,9 @@ a:visited {
 	padding: 6.5px;
 	}
 
-
+#current{
+	text-decoration: solid underline #F0F2F4;
+}
 
 .strong {
 	font-weight: bold;
@@ -227,7 +236,7 @@ input[type="text"], input[type="password"], input[type="date"], input[type="date
 	width: 100%;
 	background-color: #FCFDFD;
 	color: #8a97a0;
-	box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+	box-shadow: 0 1px 0 rgba(0,0,0,0.07) inset;
 
 }
 
