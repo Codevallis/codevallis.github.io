@@ -1,0 +1,53 @@
+*{margin: 0;padding: 0;}
+/*::=pseudo elements. :=pseudo classes*/
+*,*::BEFORE, *::after{box-sizing: border-box;}
+
+.container{
+	
+	/*inline-flex will have the item take the space of the content and no more */
+	display: flex;
+	border: 5px dotted #00F3FF;
+/*	min-height: 100vh;*/
+	
+	/*DEFAULT DIRECTION IS ROW WITHOUT SPECIFYING*/
+	flex-direction: row;
+/*	flex-wrap default value is 'nowrap'*/
+	flex-wrap: wrap;
+	
+/*	justify-content default is 'flex-start'*/
+/*	justify-content deals with main axis*/
+	
+	justify-content: center;
+	align-items: center;
+	align-content: space-around;
+	min-height: 100vh;
+	
+}
+
+.box{
+	color:white;
+	font-size: 100px;
+	text-align: center;
+	text-shadow: 4px 4px 0 rgba(0,0,0,.1);
+	width: 33.333%;
+/*	flex is shorthand for flex-grow, flex-shrink and flex-basis*/
+/*	flex set to 1 will set all flex children to take up equal space*/
+/*	flex: 1;*/
+}
+
+.box3{
+/*	order default is 0. can be pushed in either direction along the number line*/
+/*	order will change the visual order, but in text for example, highlighting will still select them in dom order*/
+/*	order: 5;*/
+}
+
+.box1{background: blue}
+.box2{background-color: red}
+.box3{background-color: green}
+.box4{background-color: purple}
+.box5{background-color: yellow}
+.box6{background-color: orange}
+.box7{background-color: brown}
+.box8{background-color: #151307}
+.box9{background-color: hotpink}
+.box10{background-color: palegreen}
