@@ -44,6 +44,7 @@ body
     font-kerning: normal;
 }
 
+
 h1,
 h2,
 h3
@@ -319,6 +320,24 @@ a:hover{
 .strong
 {
     font-weight: bold;
+}
+
+:root {
+  --borderWidth: 7px;
+  --height: 24px;
+  --width: 12px;
+  --borderColor: #78b13f;
+}
+
+
+
+.check {
+  display: inline-block;
+  transform: rotate(45deg);
+  height: var(--height);
+  width: var(--width);
+  border-bottom: var(--borderWidth) solid var(--borderColor);
+  border-right: var(--borderWidth) solid var(--borderColor);
 }
 
 
