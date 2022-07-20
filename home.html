@@ -15,7 +15,7 @@
 <!--	MOBILE FIRST-->
 	<div class="container">
 <!--	NAVIGATION-->
-		<div class="navigation">
+		<div class="navigation sticky">
 			<a href="pdp.html">PDP</a>
 			<a href="home.html">Home</a>
 		</div>
@@ -51,13 +51,21 @@
 
 
 <script type="text/javascript">
-window.onscroll = function() {scrollFunction()};
+// When the user scrolls the page, execute myFunction
+window.onscroll = function() {myFunction()};
 
-function scrollFunction() {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    document.getElementById("navigation").style.top = "0";
+// Get the navbar
+var navbar = document.getElementById("navigation");
+
+// Get the offset position of the navbar
+var sticky = navigation.offsetTop;
+
+// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
   } else {
-    document.getElementById("navigation").style.top = "-50px";
+    navbar.classList.remove("sticky");
   }
 } 
 

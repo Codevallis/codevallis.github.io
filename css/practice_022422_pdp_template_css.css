@@ -214,6 +214,13 @@ hr.divider{
 .navigation h1{
 	color:#FFFFFC;
 }
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+	position: fixed;
+	top: 0;
+	width: 100%;
+  }
 .copyRightfooter{
 	background-color: #201817;
 	color: #FFFFFC;
