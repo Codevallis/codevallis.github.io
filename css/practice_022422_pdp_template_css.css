@@ -29,8 +29,27 @@ TAUPE/"BONE": #E8DAC4
 LIGHT-BROWN/"SHADOW": #82735C
 		rgba(130,115,92,1)
 SILVER/"CULTURED": #EAEBED
-		rgba(234,235,237,1)
-				
+		rgba(234,235,237,1)				
+*/
+
+/*
+PALETTE 3
+PINK:	#ed4564
+		0,71,58,7,100
+		237,69,100
+		
+YELLOW:	#eded00
+		0,0,100,0
+		237,237,0
+
+BLUE:   #52b2db
+		63,19,0,14,100
+		82,178,219
+
+BROWN:	#261605
+		0,42,87,85,100
+		38,22,5
+
 */
 *{
 	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
