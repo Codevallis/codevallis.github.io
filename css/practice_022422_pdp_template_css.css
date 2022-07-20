@@ -58,22 +58,28 @@ BROWN:	#261605
 	
 }
 body{
-    background-color: rgba(130,115,92,1);
+	background-color: #fff;
+    /* background-color: rgba(130,115,92,1); */
 /*	background-image: url("../img/dark-honeycomb.png");*/
 	/* background-image: url("../img/light_grey.png"); */
     /* background-image: url(../img/merely_cubed.png); */
     /* background-image: url(../img/vaio_hard_edge.png); */
     /* background-image: url(../img/diagonal_striped_brick.png); */
     /* background-image: url(../img/diagonal_waves.png); */
-    background-image: url(../img/kindajean.png);
-	background-repeat: repeat;
+    /* background-image: url(../img/kindajean.png);
+	background-repeat: repeat; */
 /*	background-color: rgba(216,180,160,.45);*/
 /*  background-color: rgba(239,241,243,.2);WHITE: #EFF1F3*/
-	background-blend-mode:overlay;
+	/* background-blend-mode:overlay; */
 }
 h1, h2, h3, h4, h5, h6{
 
-	color: #201817;
+	color: #261605;
+	text-shadow:
+	 -1px -1px 0 #ed4564,  
+	  1px -1px 0 #ed4564,
+	  -1px 1px 0 #ed4564,
+	   1px 1px 0 #ed4564;
 	margin-bottom: -5px;
 	text-align: center;
 }
