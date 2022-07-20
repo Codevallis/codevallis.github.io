@@ -22,9 +22,9 @@
 <!--	CONTENT CONTAINER-->
 		<div class="flex-container">
 <!--	BIG LOGO (hide on scroll)-->
-			<img src="img/TBC_STAMP_web.svg" alt="Logo image" role="img" aria-label="Logo image">
+			<img src="img/TBC_STAMP_web.svg" alt="Logo image" role="img" aria-label="Logo image" class="logo">
 <!--	CATEGORIES-->
-			<h1 class="flavorsTitle">Product Categories</h1>
+			<h2 class="">Product Categories</h2>
 			<hr class="slash-2"/>
 			<div class="grid-container-icons">
 				<div class="grid-container-icons-item"><a href=""><img src="img/cherry-svgrepo-com.svg" alt="" class="iconImg"></a></div>
@@ -48,5 +48,20 @@
 <!--	FOOTER-->
 		<footer class="copyRightfooter">Copyright &#169; 2022 Thoughtful Baking Company, LLC. All rights reserved.</footer>
 	</div>
+
+
+<script type="text/javascript">
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    document.getElementById("navigation").style.top = "0";
+  } else {
+    document.getElementById("navigation").style.top = "-50px";
+  }
+} 
+
+
+</script>
 </body>
 </html>

@@ -366,3 +366,9 @@ hr.divider{
 	margin-bottom: 15px;
 	padding: 20px;
 }
+
+.logo{
+	margin: auto;
+	width: 50%;
+	height: 50%;
+}
