@@ -38,7 +38,7 @@ PINK:	#ed4564
 		0,71,58,7,100
 		237,69,100
 		
-YELLOW:	#eded00
+YELLOW:	#ffff00
 		0,0,100,0
 		237,237,0
 
@@ -58,7 +58,7 @@ BROWN:	#261605
 	
 }
 body{
-	background-color: #eded00;
+	background-color: #ffff00;
     /* background-color: rgba(130,115,92,1); */
 /*	background-image: url("../img/dark-honeycomb.png");*/
 	/* background-image: url("../img/light_grey.png"); */
@@ -81,7 +81,7 @@ h1, h2, h3, h4, h5, h6{
 	  -1px 1px 0 #ed4564,
 	   1px 1px 0 #ed4564; */
 	margin-bottom: -5px;
-	text-align: center;
+	text-align: left;
 }
 /*
 hr.divider{
@@ -200,7 +200,7 @@ hr.divider{
 	margin-right: 10px;
 	margin-top: 50px;
 	justify-content: space-around;
-	align-items: flex-end;
+	align-items: center;
 /*
 	justify-content: flex-start;
 	align-items: center;
@@ -378,7 +378,8 @@ hr.divider{
 }
 
 .logo{
-	margin: 50px auto;
+	margin: auto;
 	width: 50%;
 	height: 50%;
+	padding: 15px 0;
 }
