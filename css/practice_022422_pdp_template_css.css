@@ -58,7 +58,7 @@ BROWN:	#261605
 	
 }
 body{
-	background-color: #fff;
+	background-color: #eded00;
     /* background-color: rgba(130,115,92,1); */
 /*	background-image: url("../img/dark-honeycomb.png");*/
 	/* background-image: url("../img/light_grey.png"); */
@@ -75,11 +75,11 @@ body{
 h1, h2, h3, h4, h5, h6{
 
 	color: #261605;
-	text-shadow:
+	/* text-shadow:
 	 -1px -1px 0 #ed4564,  
 	  1px -1px 0 #ed4564,
 	  -1px 1px 0 #ed4564,
-	   1px 1px 0 #ed4564;
+	   1px 1px 0 #ed4564; */
 	margin-bottom: -5px;
 	text-align: center;
 }
@@ -93,7 +93,7 @@ hr.divider{
 
 .slash-2 {
   height: 3px;
-  color: #016fb9;
+  color: #ed4564;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='3px'  height='3px'  viewBox='0 0 3 3'  fill='%23AA7BC3'%3E %3Cpolygon points='0 0.5 0 1.5 1.5 3 2.5 3'/%3E%3Cpolygon points='2.5 0 1.5 0 3 1.5 3 0.5'/%3E%3C/svg%3E");
   background-size: 8px 6px;
   width: 100%;
@@ -198,6 +198,9 @@ hr.divider{
 	flex-direction: column;
 	margin-left: 10px;
 	margin-right: 10px;
+	margin-top: 50px;
+	justify-content: space-around;
+	align-items: flex-end;
 /*
 	justify-content: flex-start;
 	align-items: center;
@@ -205,7 +208,7 @@ hr.divider{
 	
 }
 .navigation{
-	background-color: #eded00; 
+	background-color: #52b2db; 
 	color: #261605;
 	text-align: center;
 	margin-bottom: 15px;
@@ -222,7 +225,7 @@ hr.divider{
 	width: 100%;
   }
 .copyRightfooter{
-	background-color: #201817;
+	background-color: #261605;
 	color: #FFFFFC;
 	text-align: center;
 	padding: 20px;
@@ -233,15 +236,15 @@ hr.divider{
 }
 
 .productTitle{
-	color: #ff0a2b;
+	color: #52b2db;
 }
 .flavorsTitle{
-	color: #ff0a2b;
+	color: #52b2db;
 	text-align: center;
 }
 .price{
 /*	background-color: #EFF1F3;*/
-	background-color: #201817;
+	background-color: #261605;
 /*	color: #d00000;*/
 	color: #FFFFFC;
 	font-weight: bolder;
@@ -375,8 +378,7 @@ hr.divider{
 }
 
 .logo{
-	margin: auto;
+	margin: 50px auto;
 	width: 50%;
 	height: 50%;
-	padding-bottom: 25px;
 }
