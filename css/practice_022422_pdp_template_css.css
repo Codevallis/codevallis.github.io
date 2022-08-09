@@ -400,6 +400,7 @@ hr.divider{
 	background-origin: border-box;
 	min-width: 100%;
 	min-height: 200px;
+	padding-bottom: 15px;
 }
 
 .testimonials{
@@ -410,6 +411,8 @@ hr.divider{
 	background-origin: border-box;
 	min-width: 100%;
 	min-height: 200px;
+	padding-bottom: 15px;
+
 }
 
 .contactHub{
@@ -421,11 +424,14 @@ hr.divider{
 	background-origin: border-box;
 	min-width: 100%;
 	min-height: 200px;
+	padding-bottom: 15px;
+
 }
 
 .mapEmbed{
 	padding: 0;
 	margin: auto;
+	text-align: center;
 }
 
 .categories{
@@ -436,4 +442,6 @@ hr.divider{
 	background-origin: border-box;
 	min-width: 100%;
 	min-height: 200px;
+	padding-bottom: 15px;
+
 }
