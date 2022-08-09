@@ -398,4 +398,6 @@ hr.divider{
 	background-attachment: scroll;
 	background-size: cover;
 	background-origin: border-box;
+	min-width: vw(100);
+	min-height: fit-content;
 }
