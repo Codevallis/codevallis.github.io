@@ -90,6 +90,9 @@ BROWN:	#261605
 	padding: 0;
 	
 }
+
+@media screen and (min-width: 320px) {
+	
 body{
 	background-color: #ffff00;
 	/* font-size: large; */
@@ -240,7 +243,7 @@ hr.divider{
 	flex-direction: column;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 50px;
+	margin-top: 80px;
 	justify-content: space-around;
 	align-items: center;
 /*
@@ -264,6 +267,7 @@ hr.divider{
 	text-transform: lowercase;
 	font-weight: bold;
 	text-decoration-style: double ;
+	font-size: 4rem;
 
 }
 
@@ -521,4 +525,17 @@ hr.divider{
 .categoriesCopy{
 	padding: 15px;
 	line-height: 1.5rem;
+}
+}
+
+@media screen and (min-width: 500px) {
+	
+}
+
+@media screen and (min-width: 767.8px) and (max-width: 1279.8px) {
+	
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1440px){
+	
 }
