@@ -275,6 +275,10 @@ hr.divider{
 	color:#FFFFFC;
 }
 
+li.navListItem{
+	list-style-type: none;
+}
+
 /* The sticky class is added to the navbar with JS when it reaches its scroll position */
 .sticky {
 	position: fixed;
