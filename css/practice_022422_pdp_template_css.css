@@ -253,6 +253,8 @@ hr.divider{
 	color: #261605;
 	text-align: center;
 	margin-bottom: 15px;
+	text-transform: lowercase;
+	font-size: 4rem;
 }
 
 .navigation h1{
