@@ -51,8 +51,41 @@ BROWN:	#261605
 		38,22,5
 
 */
+
+@font-face {
+	font-family: 'thoughtful';
+	src: url('/fonts/thoughtful.woff2') format('woff2'),
+		 url('/fonts/thoughtful.woff') format('woff');
+		 font-weight: normal;
+}
+
+@font-face {
+	font-family: 'thoughtful';
+	src: url('/fonts/thoughtful_bold.woff2') format('woff2'),
+		 url('/fonts/thoughtful_bold.woff') format('woff');
+	font-weight: bold;
+}
+
+
+@font-face {
+	font-family: 'thoughtful';
+	src: url('/fonts/thoughtful_light.woff2') format('woff2'),
+		 url('/fonts/thoughtful_light.woff') format('woff');
+	font-weight: lighter;
+}
+
+@font-face {
+	font-family: 'thoughtful';
+	src: url('/fonts/thoughtful_italic.woff2') format('woff2'),
+		 url('/fonts/thoughtful_italic.woff') format('woff');
+	font-weight: normal;
+	font-style: italic;
+}
+
+
 *{
-	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	/* font-family: "thoughtful", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif"; */
+	font-family: 'thoughtful', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 	margin: 0;
 	padding: 0;
 	
@@ -402,6 +435,7 @@ hr.divider{
 	background-origin: border-box;
 	min-width: 100%;
 	min-height: 200px;
+	padding: 10px;
 	padding-bottom: 15px;
 }
 
@@ -413,6 +447,7 @@ hr.divider{
 	background-origin: border-box;
 	min-width: 100%;
 	min-height: 200px;
+	padding: 10px;
 	padding-bottom: 15px;
 
 }
@@ -426,6 +461,7 @@ hr.divider{
 	background-origin: border-box;
 	min-width: 100%;
 	min-height: 200px;
+	padding: 10px;
 	padding-bottom: 15px;
 
 }
@@ -444,6 +480,7 @@ hr.divider{
 	background-origin: border-box;
 	min-width: 100%;
 	min-height: 200px;
+	padding: 10px;
 	padding-bottom: 15px;
 
 }
