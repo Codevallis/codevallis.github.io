@@ -286,7 +286,12 @@ li.navListItem{
 #navMenuBtn{
 	display: block;
 }
-
+.navMenuBtn{
+	background: none;
+	border: none;
+	margin: auto;
+	padding: 10px;
+}
 header.header{
 	position: relative;
 	display: inline-block;
