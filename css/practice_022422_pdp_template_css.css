@@ -292,7 +292,7 @@ li.navListItem{
 	padding: 10px;
 }
 header.header{
-	position: relative;
+	/* position: relative; */
 	display: inline-block;
 	width: 100%;
 }
@@ -313,8 +313,8 @@ header.header{
 }
 /* The sticky class is added to the navbar with JS when it reaches its scroll position */
 .sticky {
-	position: fixed;
-	top: 0;
+	position: fixed!important;
+	top: 0!important;
 	width: 100%;
 	background-color: #ed4564;
   }
