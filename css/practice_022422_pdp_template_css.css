@@ -278,7 +278,28 @@ hr.divider{
 li.navListItem{
 	list-style-type: none;
 }
+.navButtonImage{
+	width: 40px;
+	height: 40px;
+}
 
+button.navMenuBtn{
+	display: block;
+}
+
+header.header{
+	position: relative;
+	display: inline-block;
+}
+
+#navigation{
+	display: none;
+	position: absolute;
+	z-index: 1;
+}
+.showMenu{
+	display: block;
+}
 /* The sticky class is added to the navbar with JS when it reaches its scroll position */
 .sticky {
 	position: fixed;
