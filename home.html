@@ -105,18 +105,19 @@ function myFunction() {
 } 
 
 function navMenuButton(){
-	document.getElementById("navigation").classList.toggle("showMenu");
+	var element = document.getElementById("navigation");
+	element.classList.toggle("showMenu");
 }
-window.onclick = function(event){
-	var dropdowns = document.getElementsByClassName("navigation");
-	var i;
-	for (i = 0; i < dropdowns.length; i++){
-		var openDropdown = dropdowns[i];
-		if(openDropdown.classList.contains('showMenu')){
-			openDropdown.classList.remove('showMenu');
-		}
-	}
-}
+// window.onclick = function(event){
+// 	var dropdowns = document.getElementsByClassName("navigation");
+// 	var i;
+// 	for (i = 0; i < dropdowns.length; i++){
+// 		var openDropdown = dropdowns[i];
+// 		if(openDropdown.classList.contains('showMenu')){
+// 			openDropdown.classList.remove('showMenu');
+// 		}
+// 	}
+// }
 
 </script>
 </body>

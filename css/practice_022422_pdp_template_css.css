@@ -283,7 +283,7 @@ li.navListItem{
 	height: 40px;
 }
 
-button.navMenuBtn{
+#navMenuBtn{
 	display: block;
 }
 
