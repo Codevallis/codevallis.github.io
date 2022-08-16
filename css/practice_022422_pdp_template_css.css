@@ -313,10 +313,15 @@ header.header{
 }
 /* The sticky class is added to the navbar with JS when it reaches its scroll position */
 .sticky {
-	position: fixed!important;
-	top: 0!important;
+	position: fixed;
+	top: 0;
 	width: 100%;
 	background-color: #ed4564;
+	opacity: .9;
+  }
+
+  #navHeader{
+
   }
 .copyRightfooter{
 	background-color: #261605;
