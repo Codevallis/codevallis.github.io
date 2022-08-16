@@ -305,7 +305,7 @@ header.header{
 	display: none;
 	position: absolute;
 	z-index: 1;
-	opacity: .9;
+	opacity: .95;
 }
 .showMenu{
 	display: block!important;
@@ -322,6 +322,11 @@ header.header{
 
   #navHeader{
 
+  }
+
+  .header + .sticky > .navButtonImage{
+	margin: auto;
+	text-align: center;
   }
 .copyRightfooter{
 	background-color: #261605;
