@@ -323,11 +323,22 @@ header.header{
   #navHeader{
 
   }
-
-  .header + .sticky > .navButtonImage{
+.header.sticky + .menu{
+	align-items: flex-end;
+	padding: 0 30px;
+}
+.header.sticky + .menu > h2{
+	font-size: 3rem;
+	margin-bottom: -10px;
+}
+.header.sticky + .menu > .navButtonImage{
 	margin: auto;
 	text-align: center;
   }
+
+.header.sticky + .menu > .navMenuBtn{
+	padding: 20px 5px;
+}
 .copyRightfooter{
 	background-color: #261605;
 	color: #FFFFFC;
