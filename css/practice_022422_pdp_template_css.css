@@ -298,8 +298,9 @@ header.header{
 }
 .menu{
 	display: inline-flex;
-	align-items: center;
+	align-items: flex-end;
 	justify-content: space-around;
+	flex-direction: row-reverse;
 }
 #navigation{
 	display: none;
@@ -323,6 +324,10 @@ header.header{
   #navHeader{
 
   }
+
+.menuH1{
+	font-size: 2rem;
+}
 .header.sticky + .menu{
 	align-items: flex-end;
 	padding: 0 30px;
