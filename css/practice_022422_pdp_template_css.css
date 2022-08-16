@@ -288,7 +288,7 @@ li.navListItem{
 .navMenuBtn{
 	background: none;
 	border: none;
-	margin: auto;
+	/* margin: auto; */
 	padding: 10px;
 }
 header.header{
@@ -297,16 +297,19 @@ header.header{
 	width: 100%;
 }
 .menu{
-	display: inline-flex;
-	align-items: flex-end;
-	justify-content: space-around;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
 	flex-direction: row-reverse;
+	width: 100%;
+	padding-top: 20px;
 }
 #navigation{
 	display: none;
 	position: absolute;
 	z-index: 1;
 	opacity: .95;
+	width: 80%;
 }
 .showMenu{
 	display: block!important;
@@ -326,7 +329,8 @@ header.header{
   }
 
 .menuH1{
-	font-size: 2rem;
+	font-size: 3rem;
+	margin: auto;
 }
 .header.sticky + .menu{
 	align-items: flex-end;
