@@ -267,6 +267,7 @@ hr.divider{
 	font-weight: bold;
 	text-decoration-style: double ;
 	font-size: 4rem;
+	line-height: 60px;
 
 }
 
@@ -289,7 +290,7 @@ li.navListItem{
 	background: none;
 	border: none;
 	/* margin: auto; */
-	padding: 10px;
+	padding: 15px 5px;
 }
 header.header{
 	/* position: relative; */
@@ -302,7 +303,11 @@ header.header{
 	justify-content: flex-start;
 	flex-direction: row-reverse;
 	width: 100%;
-	padding-top: 20px;
+	/* padding-top: 20px; */
+}
+.sticky .menu{
+	box-shadow: 0 5px 5px 2px #261605;
+
 }
 #navigation{
 	display: none;
@@ -313,7 +318,7 @@ header.header{
 }
 .showMenu{
 	display: block!important;
-	top: 60px!important;
+	top: 80px!important;
 }
 /* The sticky class is added to the navbar with JS when it reaches its scroll position */
 .sticky {
@@ -331,6 +336,7 @@ header.header{
 .menuH1{
 	font-size: 3rem;
 	margin: auto;
+	padding: 15px 5px 5px 5px;
 }
 .header.sticky + .menu{
 	align-items: flex-end;
