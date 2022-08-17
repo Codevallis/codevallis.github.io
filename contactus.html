@@ -8,7 +8,7 @@
 	<meta name="description" content="">
 	<meta name="author" content=">
 
-	<title>Home_Page_Template</title>
+	<title>Contact Us</title>
 	<link rel="icon" type="image/x-icon" href="/img/cookie-svgrepo-com.svg">
 </head>
 
@@ -22,7 +22,7 @@
 		<!-- <a href="#" onclick="javascript:void();"><img src="/img/TBC_FLOWER_STAMP_NONAME.svg" alt=""></a> -->
 		<img src="/img/TBC_FLOWER_STAMP_NONAME.svg" alt="Menu Button Image" class="navButtonImage">
 	</button>
-<h2>Thoughtful Baking Co.</h2>
+	<h1 class="menuH1">Thoughtful Baking Co.</h1>
 </div>
 
 	<nav class="navigation sticky" id="navigation">
@@ -33,6 +33,7 @@
 				<li class="navListItem"><a href="contactus.html">Contact Us</a></li>
 				<li class="navListItem"><a href="pdp.html">Products</a></li>
 				<li class="navListItem"><a href="testimonials.html">Testimonials</a></li>
+				<li class="navListItem"><a href="faq.html">F.A.Q.</a></li>
 				<li class="navListItem"><a href="order.html">Order</a></li>
 			</ul>	
 
@@ -51,13 +52,41 @@
 <div class="contactHub">			
 	<h2>Contact Us</h2>
 	<hr class="slash-2"/>
+<!--	SAMPLE CONTACT FORM-->
+<div class="formContainer">  
+	<form id="contact" action="" method="post">
+	  <h3>Quick Contact</h3>
+	  <h4>Contact us today, and get reply with in 24 hours!</h4>
+	  <fieldset>
+		<input placeholder="Your name" type="text" tabindex="1" required autofocus>
+	  </fieldset>
+	  <fieldset>
+		<input placeholder="Your Email Address" type="email" tabindex="2" required>
+	  </fieldset>
+	  <fieldset>
+		<input placeholder="Your Phone Number" type="tel" tabindex="3" required>
+	  </fieldset>
+	  <fieldset>
+		<input placeholder="Your Web Site starts with http://" type="url" tabindex="4" required>
+	  </fieldset>
+	  <fieldset>
+		<textarea placeholder="Type your Message Here...." tabindex="5" required></textarea>
+	  </fieldset>
+	  <fieldset>
+		<button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+	  </fieldset>
+	</form>
+   
+	
+  </div>
+
 </div>
 
 		</div>
 <!--	FOOTER-->
-<!-- <div class="disclaimer">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit quos doloremque maiores quas debitis nihil eveniet minus ea quis, ex ab mollitia beatae neque ratione.</div> -->
-
-		<footer class="copyRightfooter">Copyright &#169; 2022 Thoughtful Baking Company, LLC. All rights reserved.</footer>
+<footer class="copyRightfooter">
+	<div class="footerCopy">Copyright &#169; 2022 Thoughtful Baking Company, LLC. All rights reserved.</div>
+</footer>
 	</div>
 
 
