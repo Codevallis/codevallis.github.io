@@ -340,7 +340,7 @@ header.header{
   }
 
 .menuH1{
-	font-size: 2.5rem;
+	font-size: 2.3rem;
 	margin: auto;
 	padding: 15px 5px 5px 35px;
 }
@@ -626,10 +626,11 @@ header.header{
 
 /*SAMPLE CONTACT FORM*/
 .formContainer {
-	max-width:400px;
+	max-width:320px;
 	width:100%;
 	margin:0 auto;
 	position:relative;
+	padding: 20px 0;
 }
 #contact input[type="text"], 
 #contact input[type="email"], 
@@ -641,22 +642,22 @@ header.header{
 }
 
 #contact {
-	background:#F9F9F9;
+	background:#52b2db;
 	padding:25px;
-	margin:50px 0;
+	/* margin:50px 0; */
 }
 
 #contact h3 {
 	color: #F96;
 	display: block;
-	font-size: 30px;
+	font-size: 2REM;
 	font-weight: 400;
 }
 
 #contact h4 {
 	margin:5px 0 15px;
 	display:block;
-	font-size:13px;
+	font-size:1.3REM;
 }
 
 fieldset {
@@ -668,7 +669,7 @@ fieldset {
 }
 
 #contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea {
-	width:100%;
+	width:93%;
 	border:1px solid #CCC;
 	background:#FFF;
 	margin:0 0 5px;
