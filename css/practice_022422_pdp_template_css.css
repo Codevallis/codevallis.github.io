@@ -281,6 +281,12 @@ li.navListItem{
 .navButtonImage{
 	width: 40px;
 	height: 40px;
+	background-image: url("data:image/svg+xml,<svg height="42" width="42"><circle cx="50" cy="50" r="40" stroke="#261605" stroke-width="3" fill="none"/></svg>");
+
+}
+
+.navButtonImageBG{
+	background-image: url("data:image/svg+xml,<svg height="42" width="42"><circle cx="50" cy="50" r="40" stroke="#261605" stroke-width="3" fill="none"/></svg>");
 }
 
 #navMenuBtn{
