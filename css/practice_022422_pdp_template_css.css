@@ -88,6 +88,8 @@ BROWN:	#261605
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 	margin: 0;
 	padding: 0;
+	height: 100%;
+	width: 100%;
 	
 }
 
@@ -199,7 +201,7 @@ hr.divider{
 */
 }
 .container {
-	width: 100%;
+	width: 100vw;
 /*
 	padding-right: 15px;
 	padding-left: 15px;
