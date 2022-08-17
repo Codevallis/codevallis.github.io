@@ -360,10 +360,12 @@ header.header{
 	background-color: #261605;
 	color: #FFFFFC;
 	text-align: center;
-	padding: 20px;
+	/* padding: 20px; */
 	width: 100%;
 }
-
+.footerCopy{
+	padding: 20px;
+}
 .heroImg{
 	margin-bottom: 15px;
 }
@@ -533,12 +535,12 @@ header.header{
 	background-origin: border-box;
 	min-width: 100%;
 	min-height: 200px;
-	padding: 10px;
-	padding-bottom: 15px;
+	/* padding: 10px;
+	padding-bottom: 15px; */
 }
 
 .findUsCopy{
-	padding: 15px;
+	padding: 20px;
 	line-height: 1.5rem;
 
 }
@@ -551,12 +553,12 @@ header.header{
 	background-origin: border-box;
 	min-width: 100%;
 	min-height: 200px;
-	padding: 10px;
-	padding-bottom: 15px;
+	/* padding: 10px;
+	padding-bottom: 15px; */
 
 }
 .testimonialsCopy{
-	padding: 15px;
+	padding: 20px;
 	line-height: 1.5rem;
 
 }
@@ -569,12 +571,12 @@ header.header{
 	background-origin: border-box;
 	min-width: 100%;
 	min-height: 200px;
-	padding: 10px;
-	padding-bottom: 15px;
+	/* padding: 10px;
+	padding-bottom: 15px; */
 
 }
 .contactHubCopy{
-	padding: 15px;
+	padding: 20px;
 	line-height: 1.5rem;
 
 }
@@ -599,7 +601,7 @@ header.header{
 }
 
 .categoriesCopy{
-	padding: 15px;
+	padding: 20px;
 	line-height: 1.5rem;
 }
 }
