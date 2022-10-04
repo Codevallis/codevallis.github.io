@@ -1,0 +1,149 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+	<link rel="stylesheet" href="css/practice_022422_pdp_template_css.css">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+	<meta name="author" content=">
+
+	<title>Ube Crinkles</title>
+	<link rel="icon" type="image/x-icon" href="/img/cookie-svgrepo-com.svg">
+</head>
+
+<body>
+<!--	MOBILE FIRST-->
+	<div class="container">
+<!--	NAVIGATION-->
+<header class="header" id="navHeader">
+	<!-- <a href="#" class="menuBtn">Menu</a>		 -->
+	<div class="menu"><button class="navMenuBtn" name="navMenuBtn" type="button" onclick="navMenuButton()">
+		<!-- <a href="#" onclick="javascript:void();"><img src="/img/TBC_FLOWER_STAMP_NONAME.svg" alt=""></a> -->
+		<img src="/img/TBC_FLOWER_STAMP_NONAME.svg" alt="Menu Button Image" class="navButtonImage">
+	</button>
+	<h1 class="menuH1">Thoughtful Baking Co.</h1>
+</div>
+
+	<nav class="navigation sticky" id="navigation">
+		<div class="nav-dropdown">
+			<ul>
+				<li class="navListItem"><a href="home.html">Home</a></li>
+				<li class="navListItem"><a href="about.html">About Us</a></li>
+				<li class="navListItem"><a href="contactus.html">Contact Us</a></li>
+				<li class="navListItem"><a href="pdp.html">Products</a></li>
+				<li class="navListItem"><a href="testimonials.html">Testimonials</a></li>
+				<li class="navListItem"><a href="faq.html">F.A.Q.</a></li>
+				<li class="navListItem"><a href="order.html">Order</a></li>
+			</ul>	
+
+		</div>
+
+	</nav>
+</header>
+
+<!--	CONTENT CONTAINER-->
+		<div class="flex-container">
+<!--	BIG LOGO (hide on scroll)-->
+			<img src="img/TBC_STAMP_web.svg" alt="Logo image" role="img" aria-label="Logo image" class="logo">
+
+
+
+<!--	Product Images-->
+<div class="productImages_PDP">			
+	<!-- <h2>About Us</h2> -->
+	<!-- <hr class="slash-2"/> -->
+    <img src="/img/ube-crinkle-placeholder.svg" alt="">
+
+</div>
+<!--	Product Copy-->
+<div class="productCopy_PDP">
+    Nulla facilisi. Donec rutrum finibus ex, eu semper arcu. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Fusce fermentum facilisis orci. 
+    Nulla magna nisl, tempus at euismod ac, aliquet a metus. Proin euismod eros at orci eleifend convallis. In rhoncus enim turpis, non gravida libero condimentum a. 
+    Praesent vestibulum purus tellus, a pulvinar lorem malesuada in. Sed commodo luctus gravida. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; 
+    Curabitur urna dolor, tempus sed nisi in, porta finibus neque. Mauris lorem purus, rhoncus id iaculis nec, accumsan et massa. 
+ </div>
+		</div>
+
+<!--	Purchase Section-->
+<div class="purchaseSection_PDP"></div>
+<div class="purchaseSectionTempCopy_PDP">
+    Online ordering is currently unavailable.
+</div>
+<!--	Review Section-->
+
+<div class="reviewSection_PDP">
+    <div class="reviewCopy_PDP">
+        "Good Product. Thanks for product." &mdash;Ginny Weasley&ndash;Potter
+    </div>
+</div>
+
+<!--	Ingredients Copy-->
+<div class="ingredients_PDP">
+<h2>Ingredients</h2>
+<hr class="slash-2"/>
+<ul>
+    <li>Sugar</li>
+    <li>Flour(Bleached Wheat Flour, Niacin (a B Vitamin), Iron, Thiamine Mononitrate (Vitamin B1), Riboflavin (Vitamin B2), Enzymes, Folic Acid (a B Vitamin).)</li>
+    <li>Egg</li>
+    <li>Butter(Sweet Cream, Natural Flavoring)</li>
+    <li>Vegetable Shortening (Soybean Oil, Fully Hydrogenated Palm Oil, Palm Oil, Mono And Diglycerides, TBHQ And Citric Acid (Antioxidants).)</li>
+    <li>Powdered Sugar(Cane Sugar, Cornstarch)</li>
+    <li>Ube Flavouring(Glucose Syrup, Water, Propylene Glycol, Sorbitol Syrup, Artificial Sweet Potato Flavor, Coloring [FD&C Red #3,FD&C Blue #1], Ethyl Vanillin)</li>
+    <li>Baking Powder(Sodium Acid Pyrophosphate, Sodium Bicarbonate, Corn Starch, Monocalcium Phosphate)</li>
+    <li>Baking Soda(Sodium Bicarbonate)</li>
+    <li>Corn Starch</li>
+    <li>Salt</li>
+</ul>
+</div>
+
+<!--	Allergens Copy-->
+<div class="allergens_PDP">
+Contains: Wheat, Milk, Eggs.
+
+</div>
+
+<!--	FOOTER-->
+<footer class="copyRightfooter">
+	<div class="footerCopy">Copyright &#169; 2022 Thoughtful Baking Company, LLC. All rights reserved.</div>
+</footer>
+	</div>
+
+
+<script type="text/javascript">
+// When the user scrolls the page, execute myFunction
+window.onscroll = function() {navBarStick()};
+
+// Get the navbar
+var navbar = document.getElementById("navHeader");
+
+// Get the offset position of the navbar
+var sticky = navbar.offsetTop;
+
+// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function navBarStick() {
+  if (window.pageYOffset > sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+} 
+
+function navMenuButton(){
+	var element = document.getElementById("navigation");
+	element.classList.toggle("showMenu");
+}
+window.onclick = function(event){
+	var dropdowns = document.getElementsByClassName("nav-dropdown");
+	var i;
+	for (i = 0; i < dropdowns.length; i++){
+		var openDropdown = dropdowns[i];
+		if(openDropdown.classList.contains('showMenu')){
+			openDropdown.classList.remove('showMenu');
+		}
+	}
+}
+
+</script>
+</body>
+</html>

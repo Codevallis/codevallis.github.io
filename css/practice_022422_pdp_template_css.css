@@ -125,6 +125,7 @@ h1, h2, h3, h4, h5, h6{
 h2{
 	font-size: 4rem;
 	margin-bottom: -40px;
+
 }
 /*
 hr.divider{
@@ -142,6 +143,7 @@ hr.divider{
   width: 100%;
   padding-bottom: 15px;
   height: 10px;
+  z-index: -1;
 }
 .grid-container-home-cat{
 	display: grid;
@@ -624,6 +626,36 @@ header.header{
 }
 
 
+.productImages_PDP{
+
+}
+
+.productCopy_PDP{
+
+}
+
+.ingredientsCopy_PDP{
+
+}
+
+.allergensCopy_PDP{
+
+}
+
+.reviewSection_PDP{
+
+}
+
+.reviewCopy_PDP{
+
+}
+
+.purchaseSection_PDP{
+
+}
+.purchaseSectionTempCopy_PDP{
+	
+}
 /*SAMPLE CONTACT FORM*/
 .formContainer {
 	max-width:320px;
