@@ -670,7 +670,14 @@ header.header{
 }
 
 .productHubCategory_Cookies{
-	
+
+}
+.ingredients_module{
+	background-color: #ffffff;
+	box-shadow: 12px 12px 10px black;
+	border-style: dashed;
+	border-color: black;
+	border-width: 1px;
 }
 /*SAMPLE CONTACT FORM*/
 .formContainer {
